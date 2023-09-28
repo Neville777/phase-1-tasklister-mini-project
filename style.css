@@ -7,11 +7,18 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(232, 235, 24), rgb(61, 252, 44));
 }
 
 button {
-  font-size: 7px;
+  
+  font-size: 10px;
+  font-family: "Titillium Web", sans-serif;
+  border: 1px solid #333333;
+  background: rgba(211, 78, 16, 0.925);
+  padding: 15px 10px 35px 10px;
+  height: 10px;
+  width: 120px;
 }
 
 #main-content {
@@ -23,15 +30,22 @@ button {
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.3);
   padding: 15px 20px 18px 18px;
-  border-radius: 5px;
+  border-radius: 20px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#main-content.value{
+  width: 20px;
+  height: 70px;
 }
 
 #list {
   margin: 10px;
+  width: 800px;
+  height: 400px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(235, 225, 225, 0.925);
   padding: 15px 20px 18px 18px;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 2px 5px 5px #333;
 }
